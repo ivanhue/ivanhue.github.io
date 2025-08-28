@@ -1,0 +1,181 @@
+
+body { 
+    font-family: Arial, sans-serif; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    min-height: 100vh;
+    background-color: black;
+    color: white;
+}
+
+header { 
+    padding: 1rem; 
+}
+
+nav ul { 
+    list-style: none; 
+    display: flex; 
+    gap: 1rem; 
+    margin: 0; 
+    padding: 0; 
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
+
+.hero { 
+    padding: 3rem 1rem; 
+    text-align: center; 
+}
+
+.hero h1 { 
+    margin: 0; 
+    font-size: 2.5rem; 
+}
+
+.content { 
+    display: flex; 
+    gap: 1rem; 
+    padding: 2rem 0; 
+}
+
+.card { 
+    flex: 1; 
+    padding: 1rem; 
+    border-radius: 8px; 
+    background-color: #f9f9f9; 
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+footer { 
+    text-align: center; 
+    padding: 1rem; 
+    margin-top: auto;
+    border-top: 2px solid #747474ff; /* línea superior */
+    width: 100%;
+    max-width: 500px;
+}
+
+.container {
+    width: 100%;
+    max-width: 700px; 
+    padding: 0 0; 
+    box-sizing: border-box;
+}
+
+.page-header {
+    padding: 3rem 1rem;
+    text-align: left; /* título pegado a la izquierda */
+    border-radius: 8px;
+    /*margin-bottom: 2rem;*/
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.page-header h1 {
+    margin: 0 0 0.5rem 0;
+    font-size: 2rem;
+}
+
+.page-header p {
+    margin: 0;
+    line-height: 1.5;
+    font-size: 1rem;
+}
+
+.items-list {
+  list-style: disc;
+  padding-left: 1.5rem;
+}
+
+.items-list li {
+  margin-bottom: 0.5rem;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    margin-bottom: 1rem;
+}
+
+.contact-item a {
+    display: flex;              /* ícono + texto en línea */
+    align-items: center;
+    gap: 0.5rem;                /* espacio entre ícono y texto */
+    padding: 0.4rem 0.8rem;
+    background-color: #333;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.contact-item a:hover {
+    background-color: #555;
+}
+
+.contact-item i {
+    font-size: 1.2rem; 
+    color: white; /* o el color que prefieras */
+}
+
+.contact-item .user {
+    font-weight: bold;
+    color: #aaa;
+}
+
+.project-card {
+  display: flex;
+  gap: 1.5rem;
+  background-color: #fdf5e6;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  margin-bottom: 1.5rem;
+  align-items: center;
+}
+
+.project-icon {
+  font-size: 4rem; /* tamaño del icono */
+  color: #333;
+  flex-shrink: 0; /* no se encoge */
+}
+
+.project-info {
+  flex: 1;
+}
+
+.project-info h3 {
+  margin: 0 0 0.5rem 0;
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.project-info p {
+  margin: 0 0 1rem 0;
+  color: #555;
+  line-height: 1.5;
+}
+
+.project-buttons a {
+  display: inline-block;
+  margin-right: 0.5rem;
+  padding: 0.5rem 1rem;
+  background-color: #333;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.project-buttons a:hover {
+  background-color: #555;
+}
