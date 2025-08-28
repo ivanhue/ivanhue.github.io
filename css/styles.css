@@ -1,3 +1,6 @@
+html {
+  overflow-y: scroll;
+}
 
 body { 
     font-family: Arial, sans-serif; 
@@ -59,7 +62,7 @@ footer {
     text-align: center; 
     padding: 1rem; 
     margin-top: auto;
-    border-top: 2px solid #747474ff; /* línea superior */
+    border-top: 2px solid #747474ff; 
     width: 100%;
     max-width: 500px;
 }
@@ -73,9 +76,8 @@ footer {
 
 .page-header {
     padding: 3rem 1rem;
-    text-align: left; /* título pegado a la izquierda */
+    text-align: left;
     border-radius: 8px;
-    /*margin-bottom: 2rem;*/
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
@@ -107,9 +109,9 @@ footer {
 }
 
 .contact-item a {
-    display: flex;              /* ícono + texto en línea */
+    display: flex;
     align-items: center;
-    gap: 0.5rem;                /* espacio entre ícono y texto */
+    gap: 0.5rem;
     padding: 0.4rem 0.8rem;
     background-color: #333;
     color: white;
@@ -124,7 +126,7 @@ footer {
 
 .contact-item i {
     font-size: 1.2rem; 
-    color: white; /* o el color que prefieras */
+    color: white;
 }
 
 .contact-item .user {
@@ -144,9 +146,9 @@ footer {
 }
 
 .project-icon {
-  font-size: 4rem; /* tamaño del icono */
+  font-size: 4rem; 
   color: #333;
-  flex-shrink: 0; /* no se encoge */
+  flex-shrink: 0; 
 }
 
 .project-info {
